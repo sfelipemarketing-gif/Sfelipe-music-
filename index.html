@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="theme-color" content="#080b10">
+    <meta name="theme-color" content="#070708">
     <meta name="description" content="SFelipe Music. O espaço das músicas autorais de SFelipe. Ouça online, sem conta e sem assinatura.">
     <title>SFelipe Music — O som é meu. O play é seu.</title>
     <link rel="icon" href="assets/icone.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css?v=sfelipe-identidade-1">
+    <link rel="preload" href="assets/identidade/sfelipe-logo.jpg" as="image">
     <script defer src="js/musicas.js"></script>
     <script defer src="js/app.js"></script>
   </head>
@@ -27,8 +28,8 @@
 
     <header class="header">
       <a class="brand" href="#inicio" aria-label="SFelipe Music, início">
-        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
-        <span>SFelipe<span class="brand-light"> Music</span></span>
+        <span class="brand-logo"><img src="assets/identidade/sfelipe-logo.jpg" width="1280" height="512" alt=""></span>
+        <span class="brand-light">MUSIC</span>
       </a>
       <nav class="navigation" aria-label="Navegação principal">
         <a href="#inicio">Início</a>
@@ -40,7 +41,8 @@
     <main id="conteudo">
       <section class="hero" id="inicio" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> UNIVERSO AUTORAL · SFELIPE</p>
+          <p class="eyebrow"><span></span> MÚSICA AUTORAL · SFELIPEOFICIAL</p>
+          <div class="artist-signature"><img src="assets/identidade/sfelipe-logo.jpg" width="1280" height="512" alt="SFelipe — logotipo oficial" fetchpriority="high"></div>
           <h1 id="hero-title">O som é meu.<br>O play é <em>seu.</em></h1>
           <p class="hero-description">Histórias em forma de música.<br>Um espaço para ouvir, sentir e ficar.</p>
           <div class="hero-actions">
@@ -50,13 +52,11 @@
           <p class="hero-note">Livre para ouvir. Sem conta. Sem assinatura.</p>
         </div>
         <div class="hero-art">
-          <div class="orbit orbit-one" aria-hidden="true"></div>
-          <div class="orbit orbit-two" aria-hidden="true"></div>
           <div class="hero-cover-wrap">
             <img id="hero-cover" src="assets/capas/you-dont-even-know.jpg" width="600" height="600" alt="Capa de You Don’t Even Know" fetchpriority="high">
           </div>
           <div class="release-label"><span class="release-line" aria-hidden="true"></span><div><span class="micro-label">ÚLTIMO LANÇAMENTO <span class="demo-mini" hidden>DEMO</span></span><p id="hero-track-title">You Don’t Even Know</p></div></div>
-          <span class="art-coordinate" aria-hidden="true">SF / 001 — ORIGINAL SOUNDS</span>
+          <span class="art-coordinate" aria-hidden="true">SFELIPE MUSIC — IDENTIDADE AUTORAL</span>
         </div>
       </section>
 
@@ -76,7 +76,7 @@
       </section>
     </main>
 
-    <footer class="footer"><div class="footer-brand">SFelipe<span> Music</span><small>Um universo próprio. Uma conexão pelo som.</small></div><p>SFelipeOficial<span>Músicas autorais · Acesso gratuito</span></p></footer>
+    <footer class="footer"><div class="footer-brand"><div class="footer-signature"><span class="brand-logo"><img src="assets/identidade/sfelipe-logo.jpg" width="1280" height="512" alt="SFelipe" loading="lazy"></span><span class="brand-light">MUSIC</span></div><small>Um universo próprio. Uma conexão pelo som.</small></div><p>SFelipeOficial<span>Músicas autorais · Acesso gratuito</span></p></footer>
 
     <section class="player" aria-label="Player de música">
       <div class="player-inner">

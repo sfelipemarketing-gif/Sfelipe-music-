@@ -51,3 +51,9 @@ Título obtido dos metadados do MP3. Arquivo original com 7.305.955 bytes, dura�
 ## Retirada das demonstrações — 31/10/2026
 
 Foram retirados os três blocos de demonstração do catálogo, seus MP3 e capas (PNG e SVG) e o gerador opcional dos exemplos. As quatro músicas reais e suas capas foram preservadas. O aviso de demonstração fica oculto. As prévias e o README foram atualizados para o catálogo real. Passaram a conferência de quatro faixas, ausência de selos de demonstração, reprodução, pausa, busca, próxima/anterior e layout em 320 e 390 px. Um link antigo de demonstração seleciona a primeira faixa real sem autoplay e informa que a faixa não está disponível. Os testes anteriores deste documento são históricos.
+
+## Identidade visual com logo original — 31/10/2026
+
+A logo JPEG enviada pelo artista foi preservada e aplicada ao cabeçalho, apresentação principal, rodapé e pinceladas decorativas por CSS. O tema usa preto, branco e azul neon nos controles. Não foram adicionadas funcionalidades nem modificados os MP3, capas ou catálogo.
+
+Verificações em Chromium: 320, 375, 390, 430, 768, 1024 e 1440 px sem transbordamento horizontal ou erros JavaScript/404; logo carregada nas três posições, nomes acessíveis, navegação entre início e biblioteca, reprodução e pausa, próxima faixa, seleção de outra música e acesso aos botões acima do player fixo. O perfil de iPhone oculta o volume por JavaScript. O teste é uma simulação; não substitui a conferência no Safari do iPhone físico. As duas prévias foram atualizadas.

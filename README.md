@@ -17,6 +17,10 @@ Site exclusivo das músicas autorais de **SFelipe**, identificador **SFelipeOfic
 
 Os quatro MP3 reais foram preservados, com capas extraídas dos próprios arquivos. As datas do catálogo representam a inclusão no site; as datas originais de lançamento não foram informadas.
 
+## Identidade visual
+
+A logo original enviada por SFelipe está em `assets/identidade/sfelipe-logo.jpg`. Ela aparece no cabeçalho, na apresentação do artista e no rodapé. As pinceladas da própria imagem orientam as bordas da apresentação; o preto e o branco formam a base e o azul neon destaca os controles. O arquivo original não foi alterado, e as capas e os áudios das quatro músicas foram preservados.
+
 ## Testar pelo iPhone
 
 1. Abra o link OUVIR AGORA no **Safari**. A página dos arquivos no GitHub não é o player.
