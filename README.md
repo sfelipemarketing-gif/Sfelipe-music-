@@ -2,11 +2,11 @@
 
 ## [▶ OUVIR AGORA — ABRIR SFELIPE MUSIC](https://sfelipemarketing-gif.github.io/Sfelipe-music-/)
 
-**O site está publicado.** Toque no link acima para abrir o player. As três faixas atuais são demonstrações sintéticas; suas músicas reais serão adicionadas ao catálogo depois.
+**O site está publicado.** Toque no link acima para abrir o player. **Where the Road Ends**, de SFelipe, já está no catálogo. As três faixas marcadas como demonstração continuam disponíveis como exemplos de teste.
 
 Primeira versão de um site exclusivo para as músicas autorais de **SFelipe**, identificador **SFelipeOficial**. HTML, CSS e JavaScript puro. Gratuito para ouvir, sem conta, cadastro ou assinatura.
 
-**Ainda é uma demonstração.** Os três MP3 incluídos são pequenos instrumentais sintéticos criados para testar o player. Títulos e capas também são fictícios. Eles não representam músicas reais de SFelipe. O aviso aparece no site, nas faixas e nos metadados do áudio.
+**Catálogo com música real e demonstrações identificadas.** Where the Road Ends foi enviada pelo artista, com duração aproximada de 3min53s e a capa original extraída do próprio MP3, sem alterar o áudio. A data no catálogo é a de inclusão no site (31/10/2026); a data original de lançamento não foi informada. Os outros três MP3 são instrumentais sintéticos de teste, com títulos e capas fictícios. Apenas essas faixas ficam marcadas como demonstração.
 
 ## Seu projeto no GitHub
 

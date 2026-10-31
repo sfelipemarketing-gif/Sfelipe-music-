@@ -9,6 +9,17 @@
  */
 window.SFELIPE_TRACKS = [
   {
+    id: "where-the-road-ends",
+    title: "Where the Road Ends",
+    artist: "SFelipe",
+    // Data de inclusão no site; a data original de lançamento não foi informada.
+    releaseDate: "2026-10-31",
+    duration: 232.824,
+    audio: "assets/audio/where-the-road-ends.mp3",
+    cover: "assets/capas/where-the-road-ends.jpg",
+    demo: false
+  },
+  {
     id: "entre-frequencias",
     title: "Entre frequências",
     artist: "SFelipe",
