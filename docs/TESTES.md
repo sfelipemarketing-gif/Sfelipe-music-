@@ -32,3 +32,7 @@ Use o checklist de teste em `README.md` para revisar o resultado no seu aparelho
 A primeira música real foi enviada pelo artista. O arquivo original MP3 tem 5.603.708 bytes, aproximadamente 3min53s e bitrate de 192 kbps. A capa JPEG quadrada de 912 × 912 pixels foi extraída da imagem embutida no MP3, sem alteração do áudio. A data no catálogo representa a inclusão no site, pois a data original de lançamento não foi informada. A publicação inicial do Pages foi concluída com sucesso antes desta inclusão.
 
 Verificações desta atualização: decodificação integral do áudio sem erros, correspondência do SHA do blob com o MP3 original, título e capa em destaque, identificação como SFelipe sem selo de demonstração, reprodução e pausa, busca para 1min35s, próxima/anterior, metadados de mídia e link individual sem autoplay. Em Chromium com perfil móvel, larguras de 320 e 390 px ficaram sem transbordamento e com toque para reproduzir. As limitações de teste em iPhone físico e segundo plano continuam as mesmas descritas acima.
+
+## Inclusão de Running to you — 31/10/2026
+
+MP3 original com 4.894.242 bytes, duração de 3min32s e capa JPEG embutida de 360 × 360 pixels. Áudio e capa foram preservados. Passaram a decodificação integral, verificação do SHA do blob, reprodução, pausa, busca, seleção por link, navegação entre as duas músicas reais e conferência dos metadados. O catálogo tem duas músicas reais e três demonstrações. O layout foi conferido em 320 e 390 px. A data do catálogo é a de inclusão no site.

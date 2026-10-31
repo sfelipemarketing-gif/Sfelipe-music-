@@ -9,6 +9,17 @@
  */
 window.SFELIPE_TRACKS = [
   {
+    id: "running-to-you",
+    title: "Running to you",
+    artist: "SFelipe",
+    // Data de inclusão no site; a data original de lançamento não foi informada.
+    releaseDate: "2026-10-31",
+    duration: 212.04,
+    audio: "assets/audio/running-to-you.mp3",
+    cover: "assets/capas/running-to-you.jpg",
+    demo: false
+  },
+  {
     id: "where-the-road-ends",
     title: "Where the Road Ends",
     artist: "SFelipe",
