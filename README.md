@@ -1,16 +1,20 @@
 # SFelipe Music
 
+## [▶ OUVIR AGORA — ABRIR SFELIPE MUSIC](https://sfelipemarketing-gif.github.io/Sfelipe-music-/)
+
+**O site está publicado.** Toque no link acima para abrir o player. As três faixas atuais são demonstrações sintéticas; suas músicas reais serão adicionadas ao catálogo depois.
+
 Primeira versão de um site exclusivo para as músicas autorais de **SFelipe**, identificador **SFelipeOficial**. HTML, CSS e JavaScript puro. Gratuito para ouvir, sem conta, cadastro ou assinatura.
 
 **Ainda é uma demonstração.** Os três MP3 incluídos são pequenos instrumentais sintéticos criados para testar o player. Títulos e capas também são fictícios. Eles não representam músicas reais de SFelipe. O aviso aparece no site, nas faixas e nos metadados do áudio.
 
 ## Seu projeto no GitHub
 
-Os arquivos desta versão foram preparados para o repositório [sfelipemarketing-gif/Sfelipe-music-](https://github.com/sfelipemarketing-gif/Sfelipe-music-), na branch `main`. A integração com o GitHub foi utilizada para enviar os arquivos. **O GitHub Pages não foi ativado nesta entrega.**
+Os arquivos desta versão foram preparados para o repositório [sfelipemarketing-gif/Sfelipe-music-](https://github.com/sfelipemarketing-gif/Sfelipe-music-), na branch `main`. A integração com o GitHub foi utilizada para enviar os arquivos. **O GitHub Pages foi ativado pelo proprietário; a publicação foi concluída e o endereço público respondeu HTTP 200.**
 
 Os passos 1 a 3 deste guia manual já foram resolvidos pelo envio direto. Para revisar, abra a [prévia de celular](docs/previa-iphone.png), a [prévia de computador](docs/previa-desktop.png) e o [registro de testes](docs/TESTES.md). São imagens de referência; a prévia não é um player interativo.
 
-Quando decidir publicar, siga a seção 5: **Settings → Pages → Deploy from a branch → main → / (root) → Save**. O endereço esperado, depois de habilitar e concluir a publicação, é **https://sfelipemarketing-gif.github.io/Sfelipe-music-/**. Ele ainda não está ativo por esta entrega.
+O endereço ativo é **https://sfelipemarketing-gif.github.io/Sfelipe-music-/**. A configuração utilizada é **Settings → Pages → Deploy from a branch → main → / (root)**. A seção 5 fica como referência para futuras configurações.
 
 ## O que já funciona
 
@@ -112,7 +116,7 @@ sfelipe-music/              ← repositório; não é uma subpasta no GitHub
 
 ## 4. Testar antes de publicar
 
-**Este projeto não foi publicado automaticamente.** A entrega inclui uma imagem da interface e o registro dos testes executados. Revise ambos antes de habilitar o GitHub Pages.
+**O site foi publicado pelo proprietário após a revisão da primeira versão.** A entrega inclui imagens da interface e o registro dos testes. Agora é possível testar o player diretamente no endereço público do início deste README.
 
 No iPhone, a prévia de um HTML no app Arquivos geralmente **não executa o site completo**, e o GitHub mostra o código dos arquivos. Isso não significa que o site está quebrado. Para testar interativamente pelo iPhone, será preciso abrir uma prévia web fornecida pelo ambiente de desenvolvimento, se houver, ou habilitar Pages após revisar esta entrega. Habilitar Pages torna o site público: faça isso somente quando quiser publicar. Não é preciso contratar ou autorizar outro serviço.
 
