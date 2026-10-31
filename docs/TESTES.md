@@ -41,3 +41,8 @@ MP3 original com 4.894.242 bytes, duração de 3min32s e capa JPEG embutida de 3
 ## Inclusão de Keep my people close — 31/10/2026
 
 MP3 original com 7.630.054 bytes, duração de 5min34s e capa JPEG embutida de 360 × 360 pixels. Foram preservados áudio e imagem. Passaram a decodificação integral, a correspondência do SHA, reprodução, pausa, busca para 1min35s, próxima/anterior, metadados de mídia e link direto sem autoplay. O catálogo agora tem três músicas reais e três demonstrações identificadas. O layout foi conferido em 320 e 390 px. A data usada é a inclusão no site.
+
+
+## Inclusão de You Don’t Even Know — 31/10/2026
+
+Título obtido dos metadados do MP3. Arquivo original com 7.305.955 bytes, duração de 5min18s e capa JPEG embutida de 360 × 360 pixels. Áudio e capa preservados. Passaram a decodificação integral, verificação do SHA, reprodução, pausa, busca, próxima/anterior, metadados e seleção por link sem autoplay. O catálogo tem quatro músicas reais e três demos. O layout foi conferido em 320 e 390 px. A data do catálogo corresponde à inclusão no site.

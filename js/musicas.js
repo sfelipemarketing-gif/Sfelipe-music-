@@ -9,6 +9,17 @@
  */
 window.SFELIPE_TRACKS = [
   {
+    id: "you-dont-even-know",
+    title: "You Don’t Even Know",
+    artist: "SFelipe",
+    // Data de inclusão no site; a data original de lançamento não foi informada.
+    releaseDate: "2026-10-31",
+    duration: 318,
+    audio: "assets/audio/you-dont-even-know.mp3",
+    cover: "assets/capas/you-dont-even-know.jpg",
+    demo: false
+  },
+  {
     id: "keep-my-people-close",
     title: "Keep my people close",
     artist: "SFelipe",
