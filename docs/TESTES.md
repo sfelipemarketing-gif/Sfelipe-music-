@@ -46,3 +46,8 @@ MP3 original com 7.630.054 bytes, duração de 5min34s e capa JPEG embutida de 3
 ## Inclusão de You Don’t Even Know — 31/10/2026
 
 Título obtido dos metadados do MP3. Arquivo original com 7.305.955 bytes, duração de 5min18s e capa JPEG embutida de 360 × 360 pixels. Áudio e capa preservados. Passaram a decodificação integral, verificação do SHA, reprodução, pausa, busca, próxima/anterior, metadados e seleção por link sem autoplay. O catálogo tem quatro músicas reais e três demos. O layout foi conferido em 320 e 390 px. A data do catálogo corresponde à inclusão no site.
+
+
+## Retirada das demonstrações — 31/10/2026
+
+Foram retirados os três blocos de demonstração do catálogo, seus MP3 e capas (PNG e SVG) e o gerador opcional dos exemplos. As quatro músicas reais e suas capas foram preservadas. O aviso de demonstração fica oculto. As prévias e o README foram atualizados para o catálogo real. Passaram a conferência de quatro faixas, ausência de selos de demonstração, reprodução, pausa, busca, próxima/anterior e layout em 320 e 390 px. Um link antigo de demonstração seleciona a primeira faixa real sem autoplay e informa que a faixa não está disponível. Os testes anteriores deste documento são históricos.
