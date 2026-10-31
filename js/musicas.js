@@ -9,6 +9,17 @@
  */
 window.SFELIPE_TRACKS = [
   {
+    id: "keep-my-people-close",
+    title: "Keep my people close",
+    artist: "SFelipe",
+    // Data de inclusão no site; a data original de lançamento não foi informada.
+    releaseDate: "2026-10-31",
+    duration: 334.104,
+    audio: "assets/audio/keep-my-people-close.mp3",
+    cover: "assets/capas/keep-my-people-close.jpg",
+    demo: false
+  },
+  {
     id: "running-to-you",
     title: "Running to you",
     artist: "SFelipe",

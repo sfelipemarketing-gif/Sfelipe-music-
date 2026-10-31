@@ -2,11 +2,11 @@
 
 ## [▶ OUVIR AGORA — ABRIR SFELIPE MUSIC](https://sfelipemarketing-gif.github.io/Sfelipe-music-/)
 
-**O site está publicado.** Toque no link acima para abrir o player. **Where the Road Ends** e **Running to you**, de SFelipe, já estão no catálogo. As três faixas marcadas como demonstração continuam disponíveis como exemplos de teste.
+**O site está publicado.** Toque no link acima para abrir o player. **Where the Road Ends**, **Running to you** e **Keep my people close**, de SFelipe, já estão no catálogo. As três faixas marcadas como demonstração continuam disponíveis como exemplos de teste.
 
 Primeira versão de um site exclusivo para as músicas autorais de **SFelipe**, identificador **SFelipeOficial**. HTML, CSS e JavaScript puro. Gratuito para ouvir, sem conta, cadastro ou assinatura.
 
-**Catálogo com música real e demonstrações identificadas.** Where the Road Ends (aproximadamente 3min53s) e Running to you (3min32s) foram enviadas pelo artista. Os áudios foram preservados e as capas originais foram extraídas dos próprios MP3. A data no catálogo é a de inclusão no site (31/10/2026); a data original de lançamento não foi informada. Os outros três MP3 são instrumentais sintéticos de teste, com títulos e capas fictícios. Apenas essas faixas ficam marcadas como demonstração.
+**Catálogo com música real e demonstrações identificadas.** Where the Road Ends (aproximadamente 3min53s), Running to you (3min32s) e Keep my people close (5min34s) foram enviadas pelo artista. Os áudios foram preservados e as capas originais foram extraídas dos próprios MP3. A data no catálogo é a de inclusão no site (31/10/2026); a data original de lançamento não foi informada. Os outros três MP3 são instrumentais sintéticos de teste, com títulos e capas fictícios. Apenas essas faixas ficam marcadas como demonstração.
 
 ## Seu projeto no GitHub
 

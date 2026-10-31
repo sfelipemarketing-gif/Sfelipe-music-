@@ -36,3 +36,8 @@ Verificações desta atualização: decodificação integral do áudio sem erros
 ## Inclusão de Running to you — 31/10/2026
 
 MP3 original com 4.894.242 bytes, duração de 3min32s e capa JPEG embutida de 360 × 360 pixels. Áudio e capa foram preservados. Passaram a decodificação integral, verificação do SHA do blob, reprodução, pausa, busca, seleção por link, navegação entre as duas músicas reais e conferência dos metadados. O catálogo tem duas músicas reais e três demonstrações. O layout foi conferido em 320 e 390 px. A data do catálogo é a de inclusão no site.
+
+
+## Inclusão de Keep my people close — 31/10/2026
+
+MP3 original com 7.630.054 bytes, duração de 5min34s e capa JPEG embutida de 360 × 360 pixels. Foram preservados áudio e imagem. Passaram a decodificação integral, a correspondência do SHA, reprodução, pausa, busca para 1min35s, próxima/anterior, metadados de mídia e link direto sem autoplay. O catálogo agora tem três músicas reais e três demonstrações identificadas. O layout foi conferido em 320 e 390 px. A data usada é a inclusão no site.
