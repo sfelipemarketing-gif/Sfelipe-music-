@@ -42,20 +42,22 @@ function Connections({scene, project, f}: {scene: Scene; project: Project; f: nu
 
 function Flow({scene, project, f}: {scene: Scene; project: Project; f: number}) {
   const {ink, accent, background} = project;
-  return <div style={{position: 'relative', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-    <svg viewBox="0 0 610 610" style={{position: 'absolute', inset: 0, width: '100%', height: '100%'}}>
-      {[0, 1].map(i => <g key={i}>
-        <path d={`M${153 + i * 185} 305h110`} stroke={ink} strokeWidth="1.5" opacity=".25" pathLength="1" strokeDasharray="1" strokeDashoffset={1 - tween(f, 27 + i * 16, 52 + i * 16)}/>
-        <circle cx={153 + i * 185 + ((Math.max(0, f - 40 - i * 14) % 52) / 52) * 110} cy="305" r="4" fill={accent} opacity={tween(f, 40 + i * 14, 50 + i * 14)}/>
-      </g>)}
-    </svg>
-    <div style={{display: 'flex', gap: 28, alignItems: 'center', position: 'relative'}}>
-      {scene.labels.map((label, i) => <Pop key={i} f={f} delay={12 + i * 13} style={{width: 156, height: 198, border: `1.5px solid ${ink}30`, background: i === 2 ? ink : background, color: i === 2 ? background : ink, borderRadius: 22, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 26, transform: `translateY(${tween(f, 12 + i * 13, 42 + i * 13, 40, 0) + Math.sin(f / 30 + i) * 3}px)`}}>
-        <Icon kind={i} color={i === 2 ? accent : ink}/>
-        <span style={{fontSize: 22, fontWeight: 500, textAlign: 'center', padding: '0 8px'}}>{label}</span>
-      </Pop>)}
-    </div>
-  </div>;
+  // A single SVG coordinate system keeps nodes, icons and edges aligned in all formats.
+  return <svg viewBox="0 0 610 610" width="100%" height="100%">
+    {[0, 1].map(i => <g key={i}>
+      <path d={`M${177 + i * 200} 305h55`} stroke={ink} strokeWidth="1.5" opacity=".25" pathLength="1" strokeDasharray="1" strokeDashoffset={1 - tween(f, 27 + i * 16, 52 + i * 16)}/>
+      <circle cx={177 + i * 200 + ((Math.max(0, f - 40 - i * 14) % 52) / 52) * 55} cy="305" r="3" fill={accent} opacity={tween(f, 40 + i * 14, 50 + i * 14)}/>
+    </g>)}
+    {scene.labels.map((label, i) => {
+      const progress = spring({frame: f - 12 - i * 13, fps: FPS, config: {damping: 19, stiffness: 110}});
+      const x = 32 + i * 200;
+      return <g key={i} opacity={tween(f, 12 + i * 13, 30 + i * 13)} transform={`translate(0 ${(1 - progress) * 50})`}>
+        <rect x={x} y="210" width="145" height="190" rx="21" fill={i === 2 ? ink : background} stroke={ink} strokeOpacity={i === 2 ? 1 : .2} strokeWidth="1.5"/>
+        <g transform={`translate(${x + 50} 250)`}><Icon kind={i} color={i === 2 ? accent : ink}/></g>
+        <text x={x + 72.5} y="345" textAnchor="middle" fontFamily="DM Sans" fontSize={label.length > 15 ? 17 : 21} fontWeight="500" fill={i === 2 ? background : ink}>{label}</text>
+      </g>;
+    })}
+  </svg>;
 }
 
 function Focus({scene, project, f}: {scene: Scene; project: Project; f: number}) {

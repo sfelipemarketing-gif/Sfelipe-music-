@@ -58,7 +58,8 @@ npm run still -- --format 9:16 --frame 65 --scale 0.5
 ```
 
 Para um áudio autorizado, o assistente coloca o arquivo em `public/`, define
-`audio` no projeto e ajusta as durações em quadros. O render falha se o áudio
+`audio` no projeto e ajusta as durações em quadros. Também atualiza `MOTION_PROJECT`
+no workflow para selecionar esse JSON (o padrão é `projects/demo.json`). O render falha se o áudio
 e a linha do tempo diferirem mais de 250 ms, evitando cortar a explicação.
 Os arquivos usuais de narração são ignorados pelo Git para evitar envio acidental.
 Publicar mídia exige escolha consciente: este repositório é público.

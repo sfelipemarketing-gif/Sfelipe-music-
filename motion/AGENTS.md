@@ -16,6 +16,9 @@ um motion design pessoal feito pelo assistente, não um app, editor ou plataform
   genérica que substitui o conteúdo por frases arbitrárias.
 - Conferir dependências com `npm ci`, `npm run check`, `npm test`.
 - Renderizar e executar `npm run verify` antes de afirmar que um vídeo está pronto.
+- Ao produzir outro vídeo, atualizar `MOTION_PROJECT` no workflow para o JSON
+  correto; o padrão é `projects/demo.json`. Conferir o nome/áudio do projeto
+  no manifesto exportado para não entregar o exemplo no lugar do conteúdo solicitado.
 - Diferenciar renderização local, código publicado e renderização comprovada no Actions.
 - Atualizar `STATUS.md` e `CONTEXTO.md` com testes reais e o próximo passo.
 - Não garantir memória global entre conversas: estes arquivos são a fonte durável.

@@ -49,13 +49,13 @@ const inputProps = {project};
 const composition = await selectComposition({serveUrl, id: 'Motion', inputProps, browserExecutable});
 const base = {...composition, width: Math.round(composition.width * scale), height: Math.round(composition.height * scale)};
 // Keep original composition dimensions: Remotion scales the complete frame on export.
-writeFileSync('out/storyboard.json', JSON.stringify({title: project.title, format: project.format, fps: FPS, duration, audio: project.audio, scenes: cueSheet(project)}, null, 2));
 if (args.includes('--still')) {
   const frame = Number(option('--frame') ?? 65);
   if (!Number.isInteger(frame) || frame < 0 || frame >= composition.durationInFrames) throw new Error('Frame fora da linha do tempo.');
   await renderStill({serveUrl, composition, inputProps, browserExecutable, frame, output: 'out/preview.png', scale, imageFormat: 'png'});
   console.log(`Prévia criada: out/preview.png (${base.width}×${base.height}).`);
 } else {
+  writeFileSync('out/storyboard.json', JSON.stringify({title: project.title, format: project.format, fps: FPS, duration, audio: project.audio, scenes: cueSheet(project)}, null, 2));
   const temporary = path.join(root, 'out/rendering.mp4');
   const outputLocation = path.join(root, 'out/motion.mp4');
   let lastProgress = -1;

@@ -16,6 +16,7 @@ assert.ok(Math.abs(Number(video.duration) - manifest.duration) < .05, 'Duração
 if (manifest.audio) {
   assert.ok(audio, 'A narração não pode sumir da exportação.');
   assert.equal(audio.codec_name, 'aac');
+  assert.ok(Math.abs(Number(audio.start_time ?? 0) - Number(video.start_time ?? 0)) <= 1 / manifest.fps, 'Áudio e vídeo devem começar juntos.');
   assert.ok(Math.abs(Number(audio.duration) - Number(video.duration)) < .1, 'Áudio e vídeo precisam ter a mesma duração.');
 }
 const mp4 = readFileSync('out/motion.mp4');
