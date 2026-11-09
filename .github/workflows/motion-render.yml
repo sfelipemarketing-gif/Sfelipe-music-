@@ -1,0 +1,70 @@
+name: Motion pessoal — gerar MP4
+
+on:
+  push:
+    branches: [motion-pessoal]
+    paths: ['motion/**', '.github/workflows/motion-render.yml']
+  workflow_dispatch:
+    inputs:
+      formato:
+        description: Formato do vídeo
+        type: choice
+        default: '16:9'
+        options: ['16:9', '9:16', '1:1']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: motion-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  renderizar:
+    # No private-repository compute, paid runners, APIs, credentials or cloud services.
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: motion
+    env:
+      MOTION_FORMAT: ${{ inputs.formato || '16:9' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Instalar dependências fixadas
+        run: npm ci --no-audit --no-fund
+      - name: Validar código e linha do tempo
+        run: npm run check && npm test
+      - name: Preparar som sintético de teste
+        run: npm run demo:audio
+      - name: Verificar FFmpeg
+        run: ffmpeg -version && ffprobe -version
+      - name: Renderizar MP4 em 1080p
+        run: npm run render
+      - name: Verificar sincronização e compatibilidade
+        run: npm run verify
+      - name: Criar imagem de prévia
+        run: npm run still
+      - name: Disponibilizar o vídeo para baixar
+        uses: actions/upload-artifact@v4
+        with:
+          name: motion-pessoal-${{ github.run_number }}
+          path: |
+            motion/out/motion.mp4
+            motion/out/preview.png
+            motion/out/storyboard.json
+            motion/out/render-info.json
+            motion/out/verificacao.json
+          if-no-files-found: error
+          retention-days: 3
+          compression-level: 0
+      - name: Resumo
+        run: |
+          echo '## Seu motion está pronto' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Baixe o artefato **motion-pessoal** no final desta página e abra o arquivo **motion.mp4**.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Teste de 12 segundos, animações vetoriais e som sintético. Não contém sua voz.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'O download fica disponível por 3 dias; depois é necessário gerar novamente.' >> "$GITHUB_STEP_SUMMARY"

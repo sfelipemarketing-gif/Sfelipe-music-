@@ -1,0 +1,31 @@
+{
+  "title": "Da ideia ao movimento",
+  "format": "16:9",
+  "background": "#f4f1e9",
+  "ink": "#193d3a",
+  "accent": "#df7654",
+  "audio": "demo.wav",
+  "scenes": [
+    {
+      "id": "ideia", "kind": "connections", "duration": 4,
+      "eyebrow": "01 / CONECTAR",
+      "title": "Uma ideia.\nNovas conexões.",
+      "body": "O que você explica ganha forma, ritmo e significado.",
+      "labels": ["Ideia", "Contexto", "Clareza"]
+    },
+    {
+      "id": "processo", "kind": "flow", "duration": 4,
+      "eyebrow": "02 / DAR FORMA",
+      "title": "Cada palavra,\num movimento.",
+      "body": "Elementos que aparecem no momento certo para explicar melhor.",
+      "labels": ["Sua voz", "Uma história", "Motion"]
+    },
+    {
+      "id": "clareza", "kind": "focus", "duration": 4,
+      "eyebrow": "03 / COMUNICAR",
+      "title": "Menos ruído.\nMais clareza.",
+      "body": "Uma linguagem visual feita para a sua explicação.",
+      "labels": ["Forma", "Movimento", "Significado"]
+    }
+  ]
+}

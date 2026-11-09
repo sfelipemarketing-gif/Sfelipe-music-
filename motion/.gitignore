@@ -1,0 +1,8 @@
+node_modules/
+out/
+.cache/
+public/demo.wav
+public/narracao.*
+public/voz.*
+.env*
+projects/local-*.json

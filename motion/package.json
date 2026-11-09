@@ -1,0 +1,31 @@
+{
+  "name": "motion-pessoal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Motion design pessoal, criado em código e renderizado em MP4. Sem aplicativo e sem APIs pagas.",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "demo:audio": "node scripts/demo-audio.mjs",
+    "render": "tsx scripts/render.ts",
+    "still": "tsx scripts/render.ts --still",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "5.2.8",
+    "@remotion/bundler": "4.0.541",
+    "@remotion/renderer": "4.0.541",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.541",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}
