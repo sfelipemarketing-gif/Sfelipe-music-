@@ -53,4 +53,6 @@ O Remotion é gratuito para uso individual conforme a licença consultada.
 O workflow usa somente runner padrão em repositório público e bloqueia a
 execução se o repositório passar a privado. Artefatos têm retenção curta.
 O acesso à cobrança/saldo da conta não está disponível pela integração.
-Consulte `STATUS.md` para saber o que foi efetivamente executado.
+A integração confirmou permissão para publicar o código, iniciar a execução por push e baixar artefatos.
+Renderização local em três formatos e uma execução real no Actions foram comprovadas.
+Consulte `STATUS.md` para os resultados, o vídeo de teste e o próximo passo.

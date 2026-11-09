@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "width": 1920,
+  "height": 1080,
+  "duration": 12,
+  "audio": "aac",
+  "fastStart": true
+}

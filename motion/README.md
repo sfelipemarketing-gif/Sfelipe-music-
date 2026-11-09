@@ -3,6 +3,11 @@
 Você manda sua explicação. O assistente cria as cenas e animações. Você baixa
 o vídeo pronto. Este projeto é o motor de produção, sem aplicativo ou editor.
 
+**Teste concluído:** [baixar o MP4 de exemplo](examples/motion-teste.mp4?raw=true).
+Este exemplo fica salvo na branch e não depende da validade do artefato do Actions.
+
+![Prévia do motion de teste](examples/preview.png)
+
 ## O que está preparado
 
 - Cenas em React + TypeScript + Remotion, com SVG, tipografia cinética,
