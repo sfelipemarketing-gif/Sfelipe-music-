@@ -16,7 +16,7 @@ const option = (key: string) => {
   if (!args[i + 1] || args[i + 1].startsWith('--')) throw new Error(`Falta valor para ${key}.`);
   return args[i + 1];
 };
-const projectFile = path.resolve(root, option('--project') ?? 'projects/demo.json');
+const projectFile = path.resolve(root, option('--project') ?? process.env.MOTION_PROJECT ?? 'projects/demo.json');
 if (!projectFile.startsWith(path.join(root, 'projects') + path.sep) || !projectFile.endsWith('.json'))
   throw new Error('Use um arquivo JSON dentro de motion/projects.');
 const project = projectSchema.parse(JSON.parse(readFileSync(projectFile, 'utf8')));

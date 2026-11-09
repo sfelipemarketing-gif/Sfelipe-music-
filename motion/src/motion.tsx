@@ -114,7 +114,7 @@ function SceneView({scene, project, index, count}: {scene: Scene; project: Proje
         </div>
         <Pop f={f} delay={27} style={{fontSize: tall ? 26 : 27, lineHeight: 1.55, opacity: .65, maxWidth: tall ? 800 : 640, marginTop: 30}}>{scene.body}</Pop>
       </div>
-      <div style={{position: 'absolute', left: tall ? 235 : 1105, top: tall ? (height > width ? 970 : 470) : 200, width: tall ? (height > width ? 610 : 570) : 660, height: tall ? (height > width ? 610 : 570) : 660}}>
+      <div style={{position: 'absolute', left: tall ? (height > width ? 85 : 235) : 1105, top: tall ? (height > width ? 820 : 470) : 200, width: tall ? (height > width ? 910 : 570) : 660, height: tall ? (height > width ? 910 : 570) : 660}}>
         <Graphic scene={scene} project={project} f={f}/>
       </div>
       <div style={{position: 'absolute', left: tall ? 85 : 142, right: tall ? 85 : 142, bottom: tall ? 74 : 80, display: 'flex', justifyContent: 'space-between', fontSize: 17, opacity: .45}}>

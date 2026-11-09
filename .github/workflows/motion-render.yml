@@ -6,6 +6,10 @@ on:
     paths: ['motion/**', '.github/workflows/motion-render.yml']
   workflow_dispatch:
     inputs:
+      projeto:
+        description: Arquivo JSON dentro de motion/projects
+        type: string
+        default: projects/demo.json
       formato:
         description: Formato do vídeo
         type: choice
@@ -29,7 +33,8 @@ jobs:
       run:
         working-directory: motion
     env:
-      MOTION_FORMAT: ${{ inputs.formato || '16:9' }}
+      MOTION_FORMAT: ${{ inputs.formato || '' }}
+      MOTION_PROJECT: ${{ inputs.projeto || 'projects/demo.json' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -41,8 +46,14 @@ jobs:
         run: npm run check && npm test
       - name: Preparar som sintético de teste
         run: npm run demo:audio
-      - name: Verificar FFmpeg
-        run: ffmpeg -version && ffprobe -version
+      - name: Instalar FFmpeg gratuito
+        run: |
+          if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends ffmpeg
+          fi
+          ffmpeg -version
+          ffprobe -version
       - name: Renderizar MP4 em 1080p
         run: npm run render
       - name: Verificar sincronização e compatibilidade
