@@ -57,3 +57,10 @@ Foram retirados os três blocos de demonstração do catálogo, seus MP3 e capas
 A logo JPEG enviada pelo artista foi preservada e aplicada ao cabeçalho, apresentação principal, rodapé e pinceladas decorativas por CSS. O tema usa preto, branco e azul neon nos controles. Não foram adicionadas funcionalidades nem modificados os MP3, capas ou catálogo.
 
 Verificações em Chromium: 320, 375, 390, 430, 768, 1024 e 1440 px sem transbordamento horizontal ou erros JavaScript/404; logo carregada nas três posições, nomes acessíveis, navegação entre início e biblioteca, reprodução e pausa, próxima faixa, seleção de outra música e acesso aos botões acima do player fixo. O perfil de iPhone oculta o volume por JavaScript. O teste é uma simulação; não substitui a conferência no Safari do iPhone físico. As duas prévias foram atualizadas.
+
+
+## Inclusão de oito músicas — 13/11/2026
+
+Adicionadas O Tempo Não Espera, Você Me Faz Arrepiar, THE WORLD WITH YOU, More Than One Lifetime, Sem Freio, Do Nada Pro Topo, SOBRECARGA DO SISTEMA e Doce Veneno. O catálogo passou de quatro para 12 músicas reais, sem demonstrações. Os oito MP3 somam 48.326.927 bytes e foram preservados integralmente; todas as capas JPEG de 360 × 360 pixels foram extraídas sem recompressão. A data cadastrada é a inclusão no site; as datas originais de lançamento não foram informadas.
+
+Passaram a decodificação integral dos oito áudios, verificação de SHA de cada MP3 e capa enviados ao GitHub, reprodução e pausa de cada faixa, busca para 30 segundos, título/artista/capa/duração, seleção por oito links individuais sem autoplay, próxima/anterior e parada ao final da biblioteca. Foram confirmadas 12 linhas da biblioteca e três destaques, zero erros JavaScript/404 e ausência de avisos de demonstração. O perfil móvel em Chromium foi conferido em 320, 390 e 768 px; as prévias foram atualizadas. Segundo plano e Safari em um iPhone físico continuam sujeitos às limitações já documentadas.

@@ -8,6 +8,14 @@ Site exclusivo das músicas autorais de **SFelipe**, identificador **SFelipeOfic
 
 | Música | Duração aproximada |
 | --- | --- |
+| [O Tempo Não Espera](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=o-tempo-nao-espera) | 4:52 |
+| [Você Me Faz Arrepiar](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=voce-me-faz-arrepiar) | 3:36 |
+| [THE WORLD WITH YOU](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=the-world-with-you) | 5:36 |
+| [More Than One Lifetime](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=more-than-one-lifetime) | 5:41 |
+| [Sem Freio](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=sem-freio) | 3:31 |
+| [Do Nada Pro Topo](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=do-nada-pro-topo) | 3:30 |
+| [SOBRECARGA DO SISTEMA](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=sobrecarga-do-sistema) | 4:37 |
+| [Doce Veneno](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=doce-veneno) | 3:07 |
 | [You Don’t Even Know](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=you-dont-even-know) | 5:18 |
 | [Keep my people close](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=keep-my-people-close) | 5:34 |
 | [Running to you](https://sfelipemarketing-gif.github.io/Sfelipe-music-/?faixa=running-to-you) | 3:32 |
@@ -15,18 +23,18 @@ Site exclusivo das músicas autorais de **SFelipe**, identificador **SFelipeOfic
 
 **As três faixas de teste foram removidas.** Entre frequências, Horizonte azul e Depois da meia-noite não fazem mais parte da biblioteca nem dos arquivos atuais do site. Suas capas e o gerador dos áudios de demonstração também foram retirados. O histórico Git mantém as versões anteriores.
 
-Os quatro MP3 reais foram preservados, com capas extraídas dos próprios arquivos. As datas do catálogo representam a inclusão no site; as datas originais de lançamento não foram informadas.
+Os 12 MP3 reais foram preservados, com capas extraídas dos próprios arquivos. As datas do catálogo representam a inclusão no site; as datas originais de lançamento não foram informadas.
 
 ## Identidade visual
 
-A logo original enviada por SFelipe está em `assets/identidade/sfelipe-logo.jpg`. Ela aparece no cabeçalho, na apresentação do artista e no rodapé. As pinceladas da própria imagem orientam as bordas da apresentação; o preto e o branco formam a base e o azul neon destaca os controles. O arquivo original não foi alterado, e as capas e os áudios das quatro músicas foram preservados.
+A logo original enviada por SFelipe está em `assets/identidade/sfelipe-logo.jpg`. Ela aparece no cabeçalho, na apresentação do artista e no rodapé. As pinceladas da própria imagem orientam as bordas da apresentação; o preto e o branco formam a base e o azul neon destaca os controles. O arquivo original não foi alterado, e as capas e os áudios das 12 músicas foram preservados.
 
 ## Testar pelo iPhone
 
 1. Abra o link OUVIR AGORA no **Safari**. A página dos arquivos no GitHub não é o player.
 2. Toque em **Ouvir lançamento** ou em uma capa. Não há autoplay ao abrir o site.
 3. Teste pausar, retomar, próxima, anterior e arrastar a barra de progresso.
-4. Confira as quatro músicas na biblioteca e a ausência de aviso de demonstração.
+4. Confira as 12 músicas na biblioteca e a ausência de aviso de demonstração.
 5. Compartilhe uma faixa e abra o link em outra aba. Ela deve ficar selecionada sem tocar automaticamente.
 6. Use os botões físicos ou a Central de Controle para o volume no iPhone.
 7. Para testar segundo plano, inicie o áudio e bloqueie a tela ou mude de aplicativo. Esse funcionamento e os controles de mídia dependem do Safari e do iOS; não são garantidos.
@@ -51,7 +59,7 @@ Para fazer manualmente pelo iPhone, use **github.com no Safari**. Algumas opçõ
     id: "minha-nova-musica",
     title: "Minha nova música",
     artist: "SFelipe",
-    releaseDate: "2026-11-01",
+    releaseDate: "2026-11-14",
     duration: 210,
     audio: "assets/audio/minha-nova-musica.mp3",
     cover: "assets/capas/minha-nova-musica.jpg",

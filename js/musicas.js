@@ -9,6 +9,94 @@
  */
 window.SFELIPE_TRACKS = [
   {
+    "id": "o-tempo-nao-espera",
+    "title": "O Tempo Não Espera",
+    "artist": "SFelipe",
+    // Data de inclusão no site; lançamento original não informado.
+    "releaseDate": "2026-11-13",
+    "duration": 291.792,
+    "audio": "assets/audio/o-tempo-nao-espera.mp3",
+    "cover": "assets/capas/o-tempo-nao-espera.jpg",
+    "demo": false
+  },
+  {
+    "id": "voce-me-faz-arrepiar",
+    "title": "Você Me Faz Arrepiar",
+    "artist": "SFelipe",
+    // Data de inclusão no site; lançamento original não informado.
+    "releaseDate": "2026-11-13",
+    "duration": 216.312,
+    "audio": "assets/audio/voce-me-faz-arrepiar.mp3",
+    "cover": "assets/capas/voce-me-faz-arrepiar.jpg",
+    "demo": false
+  },
+  {
+    "id": "the-world-with-you",
+    "title": "THE WORLD WITH YOU",
+    "artist": "SFelipe",
+    // Data de inclusão no site; lançamento original não informado.
+    "releaseDate": "2026-11-13",
+    "duration": 336.432,
+    "audio": "assets/audio/the-world-with-you.mp3",
+    "cover": "assets/capas/the-world-with-you.jpg",
+    "demo": false
+  },
+  {
+    "id": "more-than-one-lifetime",
+    "title": "More Than One Lifetime",
+    "artist": "SFelipe",
+    // Data de inclusão no site; lançamento original não informado.
+    "releaseDate": "2026-11-13",
+    "duration": 341.352,
+    "audio": "assets/audio/more-than-one-lifetime.mp3",
+    "cover": "assets/capas/more-than-one-lifetime.jpg",
+    "demo": false
+  },
+  {
+    "id": "sem-freio",
+    "title": "Sem Freio",
+    "artist": "SFelipe",
+    // Data de inclusão no site; lançamento original não informado.
+    "releaseDate": "2026-11-13",
+    "duration": 211.152,
+    "audio": "assets/audio/sem-freio.mp3",
+    "cover": "assets/capas/sem-freio.jpg",
+    "demo": false
+  },
+  {
+    "id": "do-nada-pro-topo",
+    "title": "Do Nada Pro Topo",
+    "artist": "SFelipe",
+    // Data de inclusão no site; lançamento original não informado.
+    "releaseDate": "2026-11-13",
+    "duration": 209.784,
+    "audio": "assets/audio/do-nada-pro-topo.mp3",
+    "cover": "assets/capas/do-nada-pro-topo.jpg",
+    "demo": false
+  },
+  {
+    "id": "sobrecarga-do-sistema",
+    "title": "SOBRECARGA DO SISTEMA",
+    "artist": "SFelipe",
+    // Data de inclusão no site; lançamento original não informado.
+    "releaseDate": "2026-11-13",
+    "duration": 277.224,
+    "audio": "assets/audio/sobrecarga-do-sistema.mp3",
+    "cover": "assets/capas/sobrecarga-do-sistema.jpg",
+    "demo": false
+  },
+  {
+    "id": "doce-veneno",
+    "title": "Doce Veneno",
+    "artist": "SFelipe",
+    // Data de inclusão no site; lançamento original não informado.
+    "releaseDate": "2026-11-13",
+    "duration": 187.2,
+    "audio": "assets/audio/doce-veneno.mp3",
+    "cover": "assets/capas/doce-veneno.jpg",
+    "demo": false
+  },
+  {
     id: "you-dont-even-know",
     title: "You Don’t Even Know",
     artist: "SFelipe",
